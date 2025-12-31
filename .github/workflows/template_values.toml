@@ -1,6 +1,0 @@
-[values]
-crate_name = "test-project"
-authors = "ErenayDev <erenaydev@proton.me>"
-gh-username = "ErenayDev"
-long_description = "Test project for template validation"
-short_description = "Test project"
